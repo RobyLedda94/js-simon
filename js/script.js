@@ -25,8 +25,9 @@ document.getElementById('numbers').innerText = randomNumbers.join(' - '); // rec
 
 setTimeout (function(){  // definisco la timing function 
     document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
-},3000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
+    // prompt per chiedere all'utente di inserire i numeri che ha visto
+    userNumber = prompt('Inserisci i numeri che hai visto in precedenza');
+},5000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
 
-// prompt per chiedere all'utente di inserire i numeri che ha visto
-userNumber = prompt('Inserisci i numeri che hai visto in precedenza')
+
 
