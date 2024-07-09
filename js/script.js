@@ -18,31 +18,32 @@ while (randomNumbers.length < 5) {  // ciclo while
     }
 }
 
-console.log(randomNumbers); // mostra l'array dei numeri in console
+
 
 document.getElementById('numbers').innerText = randomNumbers.join(' - '); // recupero l'elemento numbers dal dom 
+console.log(randomNumbers); // mostra l'array dei numeri in console
 
 
-setTimeout (function(){  // definisco la timing function 
+setTimeout (function() {  // definisco la timing function 
     document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
 
     let userNumbers = []; // array per raccogliere i numeri inseriti dall'utente 
+    let correctNumbers = []; // array per raccogliere i numeri corretti
     
 
     for (let i = 0; i < 5; i++) {  // l'utente inserisce i numeri uno alla volta
 
-        userNumber = parseInt(prompt('Inserisci i numeri che hai visto in precesenza')); // prompt per chiedere all'utente di inserire i numeri che ha visto
+       let userNumber = parseInt(prompt('Inserisci i numeri che hai visto in precesenza')); // prompt per chiedere all'utente di inserire i numeri che ha visto
+       userNumbers.push(userNumber); // inserisce i numeri digitati dall'utente nell' array
+    //    console.log(userNumbers); 
 
-        userNumbers.push(userNumber); // inserisce i numeri digitati dall'utente nell' array
-
-        console.log(userNumbers); // array dei numeri digitati dall'utente
-
-
-    } if (randomNumbers.includes(userNumber)) {  // condizione di controllo 
-
-    }
-    
-    
+       if (randomNumbers.includes(userNumber)){
+        
+         correctNumbers.push(userNumber);
+         console.log(correctNumbers);
+       }
+    } 
+        
 },5000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
 
 
