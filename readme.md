@@ -6,3 +6,7 @@ Descrizione: Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 3
 
 
 <!-- PSEUDO CODICE -->
+
+1 - creo un array vuoto che conterrà 5 numeri generati casualmente
+2 - definisco un ciclo while 
+2.1 - genero casualmente dei numeri da 1 a 100 con la libreria math
