@@ -22,4 +22,5 @@ Descrizione: Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 3
 7.1 - aggiungo i numeri inseriti dall'utente nell'array
 8 - devo verificare quanti e quali numeri sono stati indovinati confrontando gli array userNumbers e correctNumbers
 9 - mostrare il risultato a video
+10 - creo una seconda timing function per nascondere prima i numeri e poi appare il prompt
 

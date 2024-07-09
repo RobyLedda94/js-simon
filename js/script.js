@@ -25,7 +25,7 @@ console.log(randomNumbers); // mostra l'array dei numeri in console
 
 
 setTimeout (function() {  // definisco la timing function 
-    document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
+
 
     let userNumbers = []; // array per raccogliere i numeri inseriti dall'utente 
     let correctNumbers = []; // array per raccogliere i numeri corretti
@@ -48,6 +48,11 @@ setTimeout (function() {  // definisco la timing function
     document.getElementById('result').innerText = ' Hai indovinato ' + correctNumbers.length + ' numeri ' + correctNumbers.join(' - ');
         
 },5000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
+
+
+setTimeout (function() {  // definisco la timing function 
+    document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina      
+},3000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
 
 
 
