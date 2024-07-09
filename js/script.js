@@ -11,10 +11,12 @@
 
 let randomNumbers = [];  // array contenitore dei numeri 
 
-while (randomNumbers < 5) {  // ciclo while
+while (randomNumbers.length < 5) {  // ciclo while
     let numbers = Math.floor(Math.random() * 100 + 1);  // genero dei numeri da 1 a 100
 
     if(!randomNumbers.includes(numbers)) {  // condizione di controllo per evitare di inserire numeri doppi all'interno dell'array
-
+        randomNumbers.push(numbers); // inserisco nell'array i 5 numeri generati a random
     }
 }
+
+console.log(randomNumbers);
