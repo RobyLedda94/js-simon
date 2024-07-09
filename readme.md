@@ -18,4 +18,6 @@ Descrizione: Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 3
 5 - devo stabilire la timing function
 5.1 - i numeri mostrati in pagina spariscono dopo 3 secondi
 6 - definisco degli array vuoti che conterranno i numeri inseriti dall'utente e i numeri generati a random
+7 - definisco un ciclo for in cui devo chiedere all'utente di inserire i numeri che ha visto
+7.1 - aggiungo i numeri inseriti dall'utente nell'array
 
