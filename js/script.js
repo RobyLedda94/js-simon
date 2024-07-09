@@ -37,9 +37,9 @@ setTimeout (function() {  // definisco la timing function
        userNumbers.push(userNumber); // inserisce i numeri digitati dall'utente nell' array
     //    console.log(userNumbers); 
 
-       if (randomNumbers.includes(userNumber)){
+       if (randomNumbers.includes(userNumber)){  //condizione di controllo tra i numeri inseriti dall'utente e quelli generati a random
         
-         correctNumbers.push(userNumber);
+         correctNumbers.push(userNumber); // aggiungo i numeri corretti ell'arrai correctNumbers
          console.log(correctNumbers);
        }
     } 
