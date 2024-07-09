@@ -35,7 +35,11 @@ setTimeout (function(){  // definisco la timing function
 
         userNumbers.push(userNumber); // inserisce i numeri digitati dall'utente nell' array
 
-        console.log(userNumbers);
+        console.log(userNumbers); // array dei numeri digitati dall'utente
+
+
+    } if (randomNumbers.includes(userNumber)) {  // condizione di controllo 
+
     }
     
     
