@@ -25,12 +25,16 @@ document.getElementById('numbers').innerText = randomNumbers.join(' - '); // rec
 
 setTimeout (function(){  // definisco la timing function 
     document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
-    let userNumbers = []; // array per raccogliere i numeri inseriti dall'utente 
-    let randomNumbers = [];  // array contenitore numeri random
 
-    for (let i = 0; i < 5; i++) {
-        userNumber = prompt('Inserisci i numeri che hai visto in precedenza'); // prompt per chiedere all'utente di inserire i numeri che ha visto
+    let userNumbers = []; // array per raccogliere i numeri inseriti dall'utente 
+    
+
+    for (let i = 0; i < 5; i++) {  // l'utente inserisce i numeri uno alla volta
+
+        userNumber = parseInt(prompt('Inserisci i numeri che hai visto in precesenza')); // prompt per chiedere all'utente di inserire i numeri che ha visto
+
         userNumbers.push(userNumber); // inserisce i numeri digitati dall'utente nell' array
+
         console.log(userNumbers);
     }
     
