@@ -8,7 +8,6 @@
 
 
 
-
 let randomNumbers = [];  // array contenitore dei numeri 
 
 while (randomNumbers.length < 5) {  // ciclo while
@@ -19,6 +18,12 @@ while (randomNumbers.length < 5) {  // ciclo while
     }
 }
 
-console.log(randomNumbers);
+console.log(randomNumbers); // mostra l'array dei numeri in console
 
-document.getElementById('numbers').innerText = randomNumbers; // recupero l'elemento numbers dal dom
+document.getElementById('numbers').innerText = randomNumbers.join(' - '); // recupero l'elemento numbers dal dom 
+
+
+setTimeout (function(){  // definisco la timing function 
+    document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
+},3000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
+
