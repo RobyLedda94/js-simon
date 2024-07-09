@@ -17,3 +17,4 @@ Descrizione: Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 3
 4.2 - recupero gli elementi dal dom
 5 - devo stabilire la timing function
 5.1 - i numeri mostrati in pagina spariscono dopo 3 secondi
+6 - tramite prompt chiediamo all'utente di inserire i numeri che ha visualizzato
