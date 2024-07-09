@@ -27,6 +27,7 @@ setTimeout (function(){  // definisco la timing function
     document.getElementById('numbers').innerText = '';  // funzionalità che cancella i numeri dalla pagina
     // prompt per chiedere all'utente di inserire i numeri che ha visto
     userNumber = prompt('Inserisci i numeri che hai visto in precedenza');
+    console.log(userNumber);
 },5000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
 
 
