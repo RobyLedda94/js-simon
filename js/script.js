@@ -20,3 +20,5 @@ while (randomNumbers.length < 5) {  // ciclo while
 }
 
 console.log(randomNumbers);
+
+document.getElementById('numbers').innerText = randomNumbers; // recupero l'elemento numbers dal dom
