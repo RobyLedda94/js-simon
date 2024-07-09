@@ -43,6 +43,9 @@ setTimeout (function() {  // definisco la timing function
          console.log(correctNumbers);
        }
     } 
+
+    // visualizzo il risultato in pagina
+    document.getElementById('result').innerText = ' Hai indovinato ' + correctNumbers.length + ' numeri ' + correctNumbers.join(' - ');
         
 },5000); // tempo di visualizzazione dei numeri in pagina espresso in millisecondi
 

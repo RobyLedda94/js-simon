@@ -10,3 +10,9 @@
     font-size: 30px;
     text-align: center;
 }
+
+#result{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}

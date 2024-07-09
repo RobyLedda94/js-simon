@@ -20,5 +20,6 @@ Descrizione: Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 3
 6 - definisco un array vuoto che contiene i numeri inseriti dall'utente + un array vuoto che contiene i numeri corretti
 7 - definisco un ciclo for in cui devo chiedere all'utente di inserire i numeri che ha visto
 7.1 - aggiungo i numeri inseriti dall'utente nell'array
-8 - devo verificare quanti e quali numeri sono stati indovinati confrontando gli array
+8 - devo verificare quanti e quali numeri sono stati indovinati confrontando gli array userNumbers e correctNumbers
+9 - mostrare il risultato a video
 
